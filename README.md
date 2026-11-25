@@ -1,16 +1,16 @@
 # Vector Store UI Plugin
 
-## Intended effects
+## Sysnopsis
 
 In the built-in **Embed Dataset** creation dialog, this plugin:
 
-- Hides local vector stores: ChromaDB, FAISS, Milvus local, and Qdrant local.
+- Hides local vector stores (e.g. ChromaDB, FAISS, Milvus local, and Qdrant local).
 - Retains remote vector stores while preserving DSS’s existing exclusions.
 - Clears local default selections and requires a remote store and connection before creating the recipe.
 
 The customization applies only to this creation dialog. Existing Knowledge Banks and API access are unaffected.
 
-## Installation
+## Installation from Source
 
 Package the contents of `source/` with `plugin.json` at the ZIP root. From the project directory:
 
@@ -19,7 +19,15 @@ cd source
 zip -r ../vector-store-ui-0.1.0.zip plugin.json js -x '*.DS_Store'
 ```
 
-As a DSS administrator, upload the ZIP through **Plugins → Add plugin → Upload**. Reload the plugin if prompted, then fully refresh all open DSS browser tabs.
+As a DSS administrator, upload the created ZIP file through **Plugins → Add plugin → Upload**. Reload the plugin if prompted, then fully refresh all open DSS browser tabs.
+
+## Installation from Release
+
+Download the [latest](https://github.com/rastern/dss-vector-store-ui/releases/latest) pre-packaged plugin from the [Releases](https://github.com/rastern/dss-vector-store-ui/releases) section.
+
+As a DSS administrator, upload the ZIP file through **Plugins → Add plugin → Upload**. Reload the plugin if prompted, then fully refresh all open DSS browser tabs.
+
+## Usage
 
 Inside a project, open a dataset and choose **Embed Dataset**. Select a remote vector store and its connection. All local vector stores should be removed from the list.
 
