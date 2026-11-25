@@ -24,4 +24,3 @@ As a DSS administrator, upload the ZIP through **Plugins → Add plugin → Uplo
 Inside a project, open a dataset and choose **Embed Dataset**. Select a remote vector store and its connection. All local vector stores should be removed from the list.
 
 No Python code environment or additional packages are required.
->>>>>>> 5094acb (Add initial plugin version)
