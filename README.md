@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# dss-vector-store-ui
-Alters vector store UI elements in DSS
-=======
 # Vector Store UI Plugin
 
 ## Intended effects
