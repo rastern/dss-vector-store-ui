@@ -1,0 +1,12 @@
+{
+  "id": "vector-store-ui",
+  "version": "0.1.0",
+  "meta": {
+    "label": "Vector Store UI Update",
+    "description": "Modifies the vector stores list",
+    "author": "R.A. Stern",
+    "icon": "icon-filter",
+    "licenseInfo": "MIT License",
+    "tags": ["Generative AI", "Knowledge Banks"]
+  }
+}
